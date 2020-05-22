@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Headset Landing Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Alata|Anton|Lato|Muli|Noto+Sans+KR|Oswald|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="navbar-ajust">
+        <header id="header">
+            <img class="logo" id="header-img" src="https://lh3.googleusercontent.com/OmmrfqFhEy7mcjGd_eV69FppIHFMsoxsVDx_6V5zI_i5x0N2r_-wsDos8_vUIvLduDiw5D-6GjbvWVO8O5K45rpJf7jPyMUSS7Z5zsH1ILZTAMBzSuuWGWoc5rkasR-gdlIgcijclg=w2400" alt="">
+            <input type="checkbox" class="toggle-checkbox" id="chk">
+            <nav class="topnav" id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#video">Vídeo</a></li>
+                    <li><a class="nav-link" href="#preços">Produtos</a></li>
+                    <li><a class="nav-link" href="#email-section">Newsletter</a></li>
+                </ul>
+            </nav>
+            <label for="chk" class="toggle-menu">
+      <span></span>
+    </label>
+        </header>
+    </div>
+    <section class="front-image-section">
+        <h1 id="título">Modelo X</h1>
+        <button class="front-image-cta"><a href="#video">SAIBA MAIS</a></button>
+    </section>
+
+    <section class="video-section" id="video">
+        <div class="video-section-half1" data-aos="fade-right" data-aos-offset="100">
+            <h2>Título do Video</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut id nisl
+                at lacus pede, a odio ac quam at magna. Donec fermentum nec, arcu. Suspendisse fermentum, enim diam. </p>
+        </div>
+        <div class="video-section-half2" data-aos="fade-left" data-aos-offset="100">
+            <iframe class="embedded-video" width="100%" height="100%" src="https://www.youtube.com/embed/hHW1oY26kxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="preços-section" id="preços">
+        <div class="produto1" data-aos="fade-up" data-aos-offset="150">
+            <div class="imagem-produto1">
+                <div class="price-tag"><span>R$ 399</span></div>
+            </div>
+            <div class="texto-produto1">
+                <h2>Produto 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+        </div>
+        <div class="produto2" data-aos="fade-up" data-aos-offset="150">
+            <div class="imagem-produto2">
+                <div class="price-tag"><span>R$ 299</span></div>
+            </div>
+            <div class="texto-produto2">
+                <h2>Produto 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+        </div>
+        <div class="produto3" data-aos="fade-up" data-aos-offset="150">
+            <div class="imagem-produto3">
+                <div class="price-tag"><span>R$ 299</span></div>
+            </div>
+            <div class="texto-produto3">
+                <h2>Produto 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="email-section" id="email-section">
+        <h2>Participe da nossa newsletter e seja o primeiro a saber das nossas promoções!</h2>
+        <form id="form">
+
+            <input id="email" type="email" placeholder="Digite seu Email">
+            <br>
+            <button id="submit" type="submit">ENVIAR</button>
+        </form>
+    </section>
+
+    <footer>
+
+        <ul class="footer-links-menu">
+            <li><a href="#" class="footer-link"> Privacidade</a></li>
+            <li><a href="#" class="footer-link">Termos de uso</a></li>
+            <li><a href="#" class="footer-link">Contato</a></li>
+        </ul>
+        <p>Copyright 2020, HeadSet Company</p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+    </script>
+</body>
+
+</html>
